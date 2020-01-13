@@ -1,5 +1,5 @@
 body {
-  background: #f5f1e6;
+  background: #fafafa;
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ p {
 }
 
 h1 {
-  /* padding-top: 200px; */
+  padding: 0%;
   color: rgba(255, 255, 255, 0.1);
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
@@ -90,13 +90,13 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -80%);
-  animation: fill 2.5s ease forwards 0.5s;
+  /* animation: fill 2s ease forwards 0.5s; */
 }
 
 #logo path {
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
-  animation: line-anim 2.5s ease forwards 0.5s;
+  animation: line-anim 2.5s;
 }
 
 @keyframes line-anim {
@@ -116,7 +116,7 @@ h1 {
     fill: transparent;
   }
   70% {
-    fill: #EFCECE;
+    fill: #5f1273;
   }
   100% {
     fill: transparent;
