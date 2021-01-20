@@ -15,7 +15,7 @@ li {
 
 a {
     display: block;
-    color: #ac7902;
+    color: #e9f5ea;
     text-decoration: none;
     margin-right: 60px;
     animation: pop-up 3.5s;
@@ -24,9 +24,9 @@ a {
 }
 
 a:hover {
-    color: darkgreen;
-    /* transform: scale(1.06); */
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#dfe6d8 60%);
+    /* color: darkgreen; */
+    transform: scale(1.1);
+    /* background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#dfe6d8 60%); */
 }
 
 .hello {
@@ -36,7 +36,7 @@ a:hover {
     font-family: serif;
     font-size: 90px;
     font-weight: 600;
-    color: #494791;
+    color: #993b1f;
     min-width: 600px;
 }
 
@@ -46,7 +46,7 @@ a:hover {
     top: 270px;
     left: 5%;
     width: 40%;
-    color: #ac7902;
+    color: #e9f5ea;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: monospace;
     font-weight: 500;
@@ -56,7 +56,7 @@ a:hover {
 .highlight {
     /* background: linear-gradient(180deg,rgba(255,255,255,0) 50%,rgba(230,150,37,0.2) 60%);  */
     /* background: linear-gradient(180deg,rgba(255,255,255,0) 50%,rgba(245,218,122,0.4) 60%); */
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#f7e1be 60%); 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#c48426d2 60%); 
   }
 
 .pic {
