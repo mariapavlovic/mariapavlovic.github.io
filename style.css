@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin-right: 80px;
-    margin-top: 70px;
+    margin-top: 40px;
     padding: 0;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 
 .hello {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 5%;
     font-family: serif;
     font-size: 90px;
@@ -43,12 +43,12 @@ a:hover {
 
 .bio {
     position: absolute;
-    top: 270px;
+    top: 250px;
     left: 5%;
-    width: 50%;
+    width: 65%;
     color: #4a8157;
     font-family: Futura;
-    font-size: 20px;
+    font-size: 19px;
     font-style: italic;
     font-variant: normal;
     font-weight: lighter;
