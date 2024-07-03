@@ -14,17 +14,31 @@ li {
     float: right;
 }
 
-a {
+.dates {
+    text-indent: 50px;
+    display: inline-block;
+    width: 320px;
+}
+
+.links {
+    color: #272b30;
+}
+
+.links:hover {
+    color: #337a1d;
+}
+
+.tabs {
     display: block;
     text-decoration: none;
     margin-right: 60px;
     animation: pop-up 3.5s;
     max-width: 100%;
     transition: transform 160ms;
-    color: #2b3239;
+    color: #272b30;
 }
 
-a:hover {
+.tabs:hover {
     transform: scale(1.1);
     color: #337a1d;
 }
@@ -46,10 +60,10 @@ a:hover {
     top: 250px;
     left: 5%;
     width: 65%;
-    color: #2b3239;
+    color: #272b30;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     font-size: .875rem;
-    line-height: 1.25rem;
+    line-height: 2rem;
     font-variant: normal;
     font-weight: lighter;
 }
@@ -57,12 +71,3 @@ a:hover {
 .highlight {
     background: linear-gradient(180deg,rgba(255,255,255,0) 40%,#f0fff0 60%); 
   }
-
-.pic {
-    position: relative;
-    top: 80px;
-    left: 700px;
-    width: auto;
-    height: auto;
-    max-width: 450px;
-}
